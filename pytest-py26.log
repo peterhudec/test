@@ -1,0 +1,59 @@
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_refresh_response[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_token_type[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_provider_type_id[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test__expiration_time[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_consumer_key[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_provider_id[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_consumer_secret[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_token[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_token_secret[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test__expire_in[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_provider_name[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_refresh_token[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_provider_type[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_token_type[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_provider_type_id[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentialsChange::()::test__expiration_time[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_consumer_key[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_provider_id[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_consumer_secret[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_token[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_token_secret[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentialsChange::()::test__expire_in[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_provider_name[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_refresh_token[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_provider_type[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_id[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_email[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_username[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_name[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_first_name[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_last_name[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_nickname[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_birth_date[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_city[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_country[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_gender[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_link[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_locale[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_location[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_phone[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_picture[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_postal_code[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_timezone[Flask-facebook]
+F tests/functional_tests/test_providers.py::TestUser::()::test_content_should_contain[Flask-facebook]
+ self = <tests.functional_tests.test_providers.TestUser object at 0x2452690>, app = <liveandletdie.Flask object at 0x234c8d0>
+ provider = {'_path': 'facebook', 'after_consent_wait_seconds': 1, 'class_': <class 'authomatic.providers.oauth2.Facebook'>, 'consent_xpaths': ['//*[@id="platformDialogForm"]/div[2]/table/tbody/tr/td[2]/button[2]'], ...}
+ browser = <selenium.webdriver.firefox.webdriver.WebDriver object at 0x23a3690>
+ 
+     def test_content_should_contain(self, app, provider, browser):
+         self.skip_if_openid(provider)
+         content = browser.find_element_by_id('content').text
+         for item in provider['content_should_contain']:
+     
+ >           assert item in content
+ E           assert 'website' in '{"id":"737583375","bio":"ja","birthday":"11\/18\/1979","email":"peterhudec\u0040peterhudec.com","first_name":"Peter",...ovakia"},"locale":"en_US","name":"Peter Hudec","timezone":2,"updated_time":"2015-05-12T20:11:13+0000","verified":true}'
+ 
+ tests/functional_tests/test_providers.py:514: AssertionError
+. tests/functional_tests/test_providers.py::TestUser::()::test_content_should_not_contain[Flask-facebook]
+. tests/functional_tests/test_providers.py::TestUser::()::test_provider_support[Flask-facebook]

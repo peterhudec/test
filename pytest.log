@@ -1,0 +1,118 @@
+E tests/functional_tests/test_providers.py::TestCredentials::()::test_refresh_response[Flask-facebook]
+ request = <SubRequest 'app' for <Function 'test_refresh_response[Flask-facebook]'>>
+ 
+     @pytest.fixture('module', APPS)
+     def app(request):
+         """Starts and stops the server for each app in APPS"""
+     
+         _app = APPS[request.param]
+         _app.name = request.param
+     
+         try:
+             # Run the live server.
+ >           _app.live(kill_port=True)
+ 
+ tests/functional_tests/test_providers.py:108: 
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ .tox/py27/local/lib/python2.7/site-packages/liveandletdie/__init__.py:303: in live
+     duration = self.check(check_url)
+ .tox/py27/local/lib/python2.7/site-packages/liveandletdie/__init__.py:405: in check
+     super(Flask, self).check(url)
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ 
+ self = <liveandletdie.Flask object at 0x7f939fd5ad90>, check_url = 'https://authomatic.com:8080'
+ 
+     def check(self, check_url=None):
+         """
+             Checks whether a server is running.
+     
+             :param str check_url:
+                 URL where to check whether the server is running.
+                 Default is ``"http://{self.host}:{self.port}"``.
+             """
+     
+         if check_url is not None:
+             self.check_url = self._normalize_check_url(check_url)
+     
+         response = None
+         sleeped = 0.0
+         t = datetime.now()
+     
+         while not response:
+             try:
+                 response = urlopen(self.check_url)
+             except URLError:
+                 if sleeped > self.timeout:
+                     self._kill()
+                     raise LiveAndLetDieError(
+                         '{0} server {1} didn\'t start in specified timeout {2} '
+                         'seconds!\ncommand: {3}'.format(
+                             self.__class__.__name__,
+                             self.check_url,
+                             self.timeout,
+ >                           ' '.join(self.create_command())
+                         )
+                     )
+ E                   LiveAndLetDieError: Flask server https://authomatic.com:8080 didn't start in specified timeout 10.0 seconds!
+ E                   command: python /home/phudec/workspace/aptana/authomatic/examples/flask/functional_test/main.py --liveandletdie 127.0.0.1:8080 --ssl=1
+ 
+ .tox/py27/local/lib/python2.7/site-packages/liveandletdie/__init__.py:259: LiveAndLetDieError
+E tests/functional_tests/test_providers.py::TestCredentials::()::test_token_type[Flask-facebook]
+ request = <SubRequest 'app' for <Function 'test_token_type[Flask-facebook]'>>
+ 
+     @pytest.fixture('module', APPS)
+     def app(request):
+         """Starts and stops the server for each app in APPS"""
+     
+         _app = APPS[request.param]
+         _app.name = request.param
+     
+         try:
+             # Run the live server.
+ >           _app.live(kill_port=True)
+ 
+ tests/functional_tests/test_providers.py:108: 
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ .tox/py27/local/lib/python2.7/site-packages/liveandletdie/__init__.py:303: in live
+     duration = self.check(check_url)
+ .tox/py27/local/lib/python2.7/site-packages/liveandletdie/__init__.py:405: in check
+     super(Flask, self).check(url)
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ 
+ self = <liveandletdie.Flask object at 0x7f939fd5ad90>, check_url = 'https://authomatic.com:8080'
+ 
+     def check(self, check_url=None):
+         """
+             Checks whether a server is running.
+     
+             :param str check_url:
+                 URL where to check whether the server is running.
+                 Default is ``"http://{self.host}:{self.port}"``.
+             """
+     
+         if check_url is not None:
+             self.check_url = self._normalize_check_url(check_url)
+     
+         response = None
+         sleeped = 0.0
+         t = datetime.now()
+     
+         while not response:
+             try:
+                 response = urlopen(self.check_url)
+             except URLError:
+                 if sleeped > self.timeout:
+                     self._kill()
+                     raise LiveAndLetDieError(
+                         '{0} server {1} didn\'t start in specified timeout {2} '
+                         'seconds!\ncommand: {3}'.format(
+                             self.__class__.__name__,
+                             self.check_url,
+                             self.timeout,
+ >                           ' '.join(self.create_command())
+                         )
+                     )
+ E                   LiveAndLetDieError: Flask server https://authomatic.com:8080 didn't start in specified timeout 10.0 seconds!
+ E                   command: python /home/phudec/workspace/aptana/authomatic/examples/flask/functional_test/main.py --liveandletdie 127.0.0.1:8080 --ssl=1
+ 
+ .tox/py27/local/lib/python2.7/site-packages/liveandletdie/__init__.py:259: LiveAndLetDieError

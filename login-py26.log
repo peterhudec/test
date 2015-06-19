@@ -1,0 +1,33 @@
+06/18/15 16:41:35 (py26) flickr........Logging out at https://login.yahoo.com/config/login?logout=1
+06/18/15 16:41:40 (py26) flickr........Deleting 2 cookies
+06/18/15 16:41:40 (py26) flickr........Logging in
+06/18/15 16:41:40 (py26) flickr........  Attempt 1
+06/18/15 16:41:47 (py26) flickr........    Finding login input //*[@id="login-username"]
+06/18/15 16:41:47 (py26) flickr........      Filling out login
+06/18/15 16:41:47 (py26) flickr........    Finding password input //*[@id="login-passwd"]
+06/18/15 16:41:47 (py26) flickr........      Filling out password
+06/18/15 16:41:47 (py26) flickr........    Hitting ENTER
+06/18/15 16:41:47 (py26) flickr........    Waiting 6 seconds before consent
+06/18/15 16:41:53 (py26) flickr........    Finding consent button //*[@id="permissions"]/form/div/input[1]
+06/18/15 16:41:53 (py26) flickr........      Clicking consent button
+06/18/15 16:41:57 (py26) flickr........    Finding result element
+06/18/15 16:41:57 (py26) flickr........      Result element found
+06/18/15 16:41:57 (py26) flickr........  SUCCESS
+06/18/15 16:41:58 (py26) linkedin......Logging in
+06/18/15 16:41:58 (py26) linkedin......  Attempt 1
+06/18/15 16:42:02 (py26) linkedin......    Finding login input //*[@id="session_key-oauth2SAuthorizeForm"]
+06/18/15 16:42:02 (py26) linkedin......      Filling out login
+06/18/15 16:42:02 (py26) linkedin......    Finding password input //*[@id="session_password-oauth2SAuthorizeForm"]
+06/18/15 16:42:02 (py26) linkedin......      Filling out password
+06/18/15 16:42:02 (py26) linkedin......    Hitting ENTER
+06/18/15 16:42:02 (py26) linkedin......    Finding result element
+06/18/15 16:42:06 (py26) linkedin......      Result element found
+06/18/15 16:42:06 (py26) linkedin......  SUCCESS
+06/18/15 16:42:07 (py26) plurk.........Logging in
+06/18/15 16:42:07 (py26) plurk.........  Attempt 1
+06/18/15 16:42:11 (py26) plurk.........    Finding login input //*[@id="input_nick_name"]
+06/18/15 16:42:11 (py26) plurk.........      Filling out login
+06/18/15 16:42:11 (py26) plurk.........    Finding password input //*[@id="password"]/input
+06/18/15 16:42:11 (py26) plurk.........      Filling out password
+06/18/15 16:42:11 (py26) plurk.........    Hitting ENTER
+06/18/15 16:42:11 (py26) plurk.........    Waiting 5 seconds before consent

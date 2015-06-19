@@ -1,0 +1,10 @@
+actionid: py34
+msg: getenv
+cmdargs: ['/home/phudec/workspace/aptana/authomatic/e/bin/python2.7', '-m', 'virtualenv', '--python', '/usr/bin/python3.4', 'py34']
+env: {'PATH': '/home/phudec/workspace/aptana/authomatic/.tox/py34/bin:/home/phudec/workspace/aptana/authomatic/e/bin:/usr/local/p/versions/python:/home/phudec/.pyenv/shims:/home/phudec/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'VIRTUAL_ENV': '/home/phudec/workspace/aptana/authomatic/.tox/py34', 'PYTHONHASHSEED': '1752425321', 'PYTHONPATH': '/home/phudec/workspace/aptana/authomatic'}
+
+Using base prefix '/usr'
+New python executable in py34/bin/python3.4
+Also creating executable in py34/bin/python
+Installing setuptools, pip...done.
+Running virtualenv with interpreter /usr/bin/python3.4

@@ -1,0 +1,10 @@
+06/18/15 16:58:39 (py27) flickr...Logging out at https://login.yahoo.com/config/login?logout=1
+06/18/15 16:59:12 (py27) flickr...Deleting 2 cookies
+06/18/15 16:59:12 (py27) flickr...Logging in
+06/18/15 16:59:12 (py27) flickr...  Attempt 1
+06/18/15 16:59:18 (py27) flickr...    Finding login input //*[@id="login-username"]X
+06/18/15 16:59:18 (py27) flickr...    Finding result element after error The given selector //*[@id="login-username"]X is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //*[@id="login-username"]X because of the following error:
+SyntaxError: The expression is not a legal expression.
+06/18/15 16:59:18 (py27) flickr...      Result element not found!
+06/18/15 16:59:18 (py27) flickr...  Giving up after 1 attempts!

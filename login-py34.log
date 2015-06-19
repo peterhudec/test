@@ -1,0 +1,34 @@
+06/18/15 15:59:34 (py34) linkedin......Logging in
+06/18/15 15:59:34 (py34) linkedin......  Attempt 1
+06/18/15 15:59:38 (py34) linkedin......    Finding login input //*[@id="session_key-oauth2SAuthorizeForm"]
+06/18/15 15:59:38 (py34) linkedin......      Filling out login
+06/18/15 15:59:38 (py34) linkedin......    Finding password input //*[@id="session_password-oauth2SAuthorizeForm"]
+06/18/15 15:59:38 (py34) linkedin......      Filling out password
+06/18/15 15:59:38 (py34) linkedin......    Hitting ENTER
+06/18/15 15:59:39 (py34) linkedin......    Finding result element
+06/18/15 15:59:43 (py34) linkedin......      Result element found
+06/18/15 15:59:43 (py34) linkedin......  SUCCESS
+06/18/15 15:59:43 (py34) plurk.........Logging in
+06/18/15 15:59:43 (py34) plurk.........  Attempt 1
+06/18/15 15:59:52 (py34) plurk.........    Finding login input //*[@id="input_nick_name"]
+06/18/15 15:59:52 (py34) plurk.........      Filling out login
+06/18/15 15:59:52 (py34) plurk.........    Finding password input //*[@id="password"]/input
+06/18/15 15:59:52 (py34) plurk.........      Filling out password
+06/18/15 15:59:52 (py34) plurk.........    Hitting ENTER
+06/18/15 15:59:52 (py34) plurk.........    Finding consent button //*[@id="display_board"]/div[2]/div/form/input[5]
+06/18/15 15:59:54 (py34) plurk.........      Clicking consent button
+06/18/15 15:59:57 (py34) plurk.........    Finding result element
+06/18/15 15:59:57 (py34) plurk.........      Result element found
+06/18/15 15:59:57 (py34) plurk.........  SUCCESS
+06/18/15 15:59:57 (py34) windowslive...Logging in
+06/18/15 15:59:57 (py34) windowslive...  Attempt 1
+06/18/15 16:00:02 (py34) windowslive...    Finding login input //*[@id="i0116"]
+06/18/15 16:00:02 (py34) windowslive...      Filling out login
+06/18/15 16:00:02 (py34) windowslive...    Finding password input //*[@id="i0118"]
+06/18/15 16:00:02 (py34) windowslive...      Filling out password
+06/18/15 16:00:02 (py34) windowslive...    Hitting ENTER
+06/18/15 16:00:02 (py34) windowslive...    Finding consent button //*[@id="idBtn_Accept"]
+06/18/15 16:00:07 (py34) windowslive...      Consent button not found! (provider probably remembers consent)
+06/18/15 16:00:07 (py34) windowslive...    Finding result element
+06/18/15 16:00:07 (py34) windowslive...      Result element found
+06/18/15 16:00:07 (py34) windowslive...  SUCCESS
