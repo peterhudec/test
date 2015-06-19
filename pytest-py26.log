@@ -41,19 +41,138 @@
 . tests/functional_tests/test_providers.py::TestUser::()::test_picture[Flask-facebook]
 . tests/functional_tests/test_providers.py::TestUser::()::test_postal_code[Flask-facebook]
 . tests/functional_tests/test_providers.py::TestUser::()::test_timezone[Flask-facebook]
-F tests/functional_tests/test_providers.py::TestUser::()::test_content_should_contain[Flask-facebook]
- self = <tests.functional_tests.test_providers.TestUser object at 0x2452690>, app = <liveandletdie.Flask object at 0x234c8d0>
- provider = {'_path': 'facebook', 'after_consent_wait_seconds': 1, 'class_': <class 'authomatic.providers.oauth2.Facebook'>, 'consent_xpaths': ['//*[@id="platformDialogForm"]/div[2]/table/tbody/tr/td[2]/button[2]'], ...}
- browser = <selenium.webdriver.firefox.webdriver.WebDriver object at 0x23a3690>
- 
-     def test_content_should_contain(self, app, provider, browser):
-         self.skip_if_openid(provider)
-         content = browser.find_element_by_id('content').text
-         for item in provider['content_should_contain']:
-     
- >           assert item in content
- E           assert 'website' in '{"id":"737583375","bio":"ja","birthday":"11\/18\/1979","email":"peterhudec\u0040peterhudec.com","first_name":"Peter",...ovakia"},"locale":"en_US","name":"Peter Hudec","timezone":2,"updated_time":"2015-05-12T20:11:13+0000","verified":true}'
- 
- tests/functional_tests/test_providers.py:514: AssertionError
+. tests/functional_tests/test_providers.py::TestUser::()::test_content_should_contain[Flask-facebook]
 . tests/functional_tests/test_providers.py::TestUser::()::test_content_should_not_contain[Flask-facebook]
 . tests/functional_tests/test_providers.py::TestUser::()::test_provider_support[Flask-facebook]
+s tests/functional_tests/test_providers.py::TestCredentials::()::test_refresh_response[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentials::()::test_token_type[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentials::()::test_provider_type_id[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentials::()::test__expiration_time[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentials::()::test_consumer_key[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentials::()::test_provider_id[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentials::()::test_consumer_secret[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentials::()::test_token[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentials::()::test_token_secret[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentials::()::test__expire_in[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentials::()::test_provider_name[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentials::()::test_refresh_token[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentials::()::test_provider_type[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_token_type[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_provider_type_id[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test__expiration_time[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_consumer_key[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_provider_id[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_consumer_secret[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_token[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_token_secret[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test__expire_in[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_provider_name[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_refresh_token[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_provider_type[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+. tests/functional_tests/test_providers.py::TestUser::()::test_id[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_email[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_username[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_name[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_first_name[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_last_name[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_nickname[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_birth_date[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_city[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_country[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_gender[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_link[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_locale[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_location[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_phone[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_picture[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_postal_code[Flask-openid_verisignlabs]
+. tests/functional_tests/test_providers.py::TestUser::()::test_timezone[Flask-openid_verisignlabs]
+s tests/functional_tests/test_providers.py::TestUser::()::test_content_should_contain[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestUser::()::test_content_should_not_contain[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+s tests/functional_tests/test_providers.py::TestUser::()::test_provider_support[Flask-openid_verisignlabs]
+ Skipped: OpenID provider has no credentials.
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_refresh_response[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_token_type[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_provider_type_id[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test__expiration_time[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_consumer_key[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_provider_id[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_consumer_secret[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_token[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_token_secret[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test__expire_in[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_provider_name[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_refresh_token[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestCredentials::()::test_provider_type[Flask-twitter]
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_token_type[Flask-twitter]
+ Skipped: Doesn't support credentials refresh.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_provider_type_id[Flask-twitter]
+ Skipped: Doesn't support credentials refresh.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test__expiration_time[Flask-twitter]
+ Skipped: Doesn't support credentials refresh.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_consumer_key[Flask-twitter]
+ Skipped: Doesn't support credentials refresh.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_provider_id[Flask-twitter]
+ Skipped: Doesn't support credentials refresh.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_consumer_secret[Flask-twitter]
+ Skipped: Doesn't support credentials refresh.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_token[Flask-twitter]
+ Skipped: Doesn't support credentials refresh.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_token_secret[Flask-twitter]
+ Skipped: Doesn't support credentials refresh.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test__expire_in[Flask-twitter]
+ Skipped: Doesn't support credentials refresh.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_provider_name[Flask-twitter]
+ Skipped: Doesn't support credentials refresh.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_refresh_token[Flask-twitter]
+ Skipped: Doesn't support credentials refresh.
+s tests/functional_tests/test_providers.py::TestCredentialsChange::()::test_provider_type[Flask-twitter]
+ Skipped: Doesn't support credentials refresh.
+. tests/functional_tests/test_providers.py::TestUser::()::test_id[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_email[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_username[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_name[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_first_name[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_last_name[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_nickname[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_birth_date[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_city[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_country[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_gender[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_link[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_locale[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_location[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_phone[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_picture[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_postal_code[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_timezone[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_content_should_contain[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_content_should_not_contain[Flask-twitter]
+. tests/functional_tests/test_providers.py::TestUser::()::test_provider_support[Flask-twitter]

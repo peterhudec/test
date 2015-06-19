@@ -1,107 +1,235 @@
-actionid: py27
-msg: getenv
-cmdargs: [local('/home/phudec/workspace/aptana/authomatic/.tox/py27/bin/pip'), 'install', 'flask', 'pyramid', 'pytest', 'selenium', 'liveandletdie>=0.0.6', 'chromedriver-installer>=0.0.4', 'pyopenssl', 'pyvirtualdisplay', 'django', 'gae-installer', 'sphinx==1.1.3', 'python-openid']
-env: {'PATH': '/home/phudec/workspace/aptana/authomatic/.tox/py27/bin:/home/phudec/workspace/aptana/authomatic/e/bin:/usr/local/p/versions/python:/home/phudec/.pyenv/shims:/home/phudec/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'VIRTUAL_ENV': '/home/phudec/workspace/aptana/authomatic/.tox/py27', 'PYTHONHASHSEED': '1752425321', 'PYTHONPATH': '/home/phudec/workspace/aptana/authomatic'}
-
-You are using pip version 6.1.1, however version 7.0.3 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command.
-Collecting flask
-  Using cached Flask-0.10.1.tar.gz
-Collecting pyramid
-  Using cached pyramid-1.5.7-py2.py3-none-any.whl
-Collecting pytest
-  Using cached pytest-2.7.1-py2.py3-none-any.whl
-Collecting selenium
-  Using cached selenium-2.46.0.tar.gz
-Collecting liveandletdie>=0.0.6
-  Using cached liveandletdie-0.0.6.tar.gz
-Collecting chromedriver-installer>=0.0.4
-  Using cached chromedriver_installer-0.0.4.tar.gz
-Collecting pyopenssl
-  Using cached pyOpenSSL-0.15.1-py2.py3-none-any.whl
-Collecting pyvirtualdisplay
-  Using cached PyVirtualDisplay-0.1.5.tar.gz
-Collecting django
-  Using cached Django-1.8.2-py2.py3-none-any.whl
-Collecting gae-installer
-/home/phudec/workspace/aptana/authomatic/.tox/py27/local/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:79: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
-  InsecurePlatformWarning
-  Using cached gae_installer-1.9.17.3.tar.gz
-Collecting sphinx==1.1.3
-  Using cached Sphinx-1.1.3.tar.gz
-Collecting python-openid
-  Using cached python-openid-2.2.5.tar.gz
-Collecting Werkzeug>=0.7 (from flask)
-  Using cached Werkzeug-0.10.4-py2.py3-none-any.whl
-Collecting Jinja2>=2.4 (from flask)
-  Using cached Jinja2-2.7.3.tar.gz
-Collecting itsdangerous>=0.21 (from flask)
-  Using cached itsdangerous-0.24.tar.gz
-Collecting translationstring>=0.4 (from pyramid)
-  Using cached translationstring-1.3-py2.py3-none-any.whl
-Collecting WebOb>=1.3.1 (from pyramid)
-  Using cached WebOb-1.4.1.tar.gz
-Collecting PasteDeploy>=1.5.0 (from pyramid)
-  Using cached PasteDeploy-1.5.2-py2.py3-none-any.whl
-Collecting venusian>=1.0a3 (from pyramid)
-  Using cached venusian-1.0.tar.gz
-Collecting zope.deprecation>=3.5.0 (from pyramid)
-  Using cached zope.deprecation-4.1.2.tar.gz
-Requirement already satisfied (use --upgrade to upgrade): setuptools in ./.tox/py27/lib/python2.7/site-packages (from pyramid)
-Collecting repoze.lru>=0.4 (from pyramid)
-  Using cached repoze.lru-0.6.tar.gz
-Collecting zope.interface>=3.8.0 (from pyramid)
-  Using cached zope.interface-4.1.2.tar.gz
-Collecting py>=1.4.25 (from pytest)
-  Using cached py-1.4.28-py2.py3-none-any.whl
-Collecting requests (from liveandletdie>=0.0.6)
-  Using cached requests-2.7.0-py2.py3-none-any.whl
-Collecting cryptography>=0.7 (from pyopenssl)
-  Using cached cryptography-0.9.1.tar.gz
-Collecting six>=1.5.2 (from pyopenssl)
-  Using cached six-1.9.0-py2.py3-none-any.whl
-Collecting EasyProcess (from pyvirtualdisplay)
-  Using cached EasyProcess-0.1.9.tar.gz
-Collecting Pygments>=1.2 (from sphinx==1.1.3)
-  Using cached Pygments-2.0.2-py2-none-any.whl
-Collecting docutils>=0.7 (from sphinx==1.1.3)
-  Using cached docutils-0.12.tar.gz
-Collecting markupsafe (from Jinja2>=2.4->flask)
-  Using cached MarkupSafe-0.23.tar.gz
-Collecting idna (from cryptography>=0.7->pyopenssl)
-  Using cached idna-2.0-py2.py3-none-any.whl
-Collecting pyasn1 (from cryptography>=0.7->pyopenssl)
-  Using cached pyasn1-0.1.7.tar.gz
-Collecting enum34 (from cryptography>=0.7->pyopenssl)
-  Using cached enum34-1.0.4.tar.gz
-Collecting ipaddress (from cryptography>=0.7->pyopenssl)
-  Using cached ipaddress-1.0.7-py27-none-any.whl
-Collecting cffi>=0.8 (from cryptography>=0.7->pyopenssl)
-  Using cached cffi-1.1.2.tar.gz
-Collecting pycparser (from cffi>=0.8->cryptography>=0.7->pyopenssl)
-  Using cached pycparser-2.14.tar.gz
-Installing collected packages: Werkzeug, markupsafe, Jinja2, itsdangerous, flask, translationstring, WebOb, PasteDeploy, venusian, zope.deprecation, repoze.lru, zope.interface, pyramid, py, pytest, selenium, requests, liveandletdie, chromedriver-installer, idna, pyasn1, six, enum34, ipaddress, pycparser, cffi, cryptography, pyopenssl, EasyProcess, pyvirtualdisplay, django, gae-installer, Pygments, docutils, sphinx, python-openid
-  Running setup.py install for markupsafe
-  Running setup.py install for Jinja2
-  Running setup.py install for itsdangerous
-  Running setup.py install for flask
-  Running setup.py install for WebOb
-  Running setup.py install for venusian
-  Running setup.py install for zope.deprecation
-  Running setup.py install for repoze.lru
-  Running setup.py install for zope.interface
-  Running setup.py install for selenium
-  Running setup.py install for liveandletdie
-  Running setup.py install for chromedriver-installer
-  Running setup.py install for pyasn1
-  Running setup.py install for enum34
-  Running setup.py install for pycparser
-  Running setup.py install for cffi
-  Running setup.py install for cryptography
-  Running setup.py install for EasyProcess
-  Running setup.py install for pyvirtualdisplay
-  Running setup.py install for gae-installer
-  Running setup.py install for docutils
-  Running setup.py install for sphinx
+actionid=py27
+msg=getenv
+cmdargs=[local('/home/phudec/workspace/aptana/py27/bin/pip'), 'install', '--pre', '-rrequirements.txt']
+env={'LC_NUMERIC': 'sk_SK.UTF-8', 'WINDOWID': '56639477', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/phudec', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_MEASUREMENT': 'sk_SK.UTF-8', 'UPSTART_EVENTS': 'started starting', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'XDG_VTNR': '7', 'LOGNAME': 'phudec', 'USER': 'phudec', 'PATH': '/home/phudec/workspace/aptana/py27/bin:/home/phudec/.pyenv/shims:/home/phudec/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'LC_PAPER': 'sk_SK.UTF-8', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring-pSMs0L', 'NODE_PATH': '/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XAUTHORITY': '/home/phudec/.Xauthority', 'LANGUAGE': 'en_US', 'LC_MONETARY': 'sk_SK.UTF-8', 'MANDATORY_PATH': '/usr/share/gconf/gnome-fallback.mandatory.path', 'CLUTTER_IM_MODULE': 'xim', 'UPSTART_INSTANCE': '', 'JOB': 'gnome-session', 'TEXTDOMAIN': 'im-config', 'SESSIONTYPE': 'gnome-session', 'XMODIFIERS': '@im=none', 'GPG_AGENT_INFO': '/run/user/1000/keyring-pSMs0L/gpg:0:1', 'HOME': '/home/phudec', 'QT4_IM_MODULE': 'xim', 'SELINUX_INIT': 'YES', 'SSH_AUTH_SOCK': '/run/user/1000/keyring-pSMs0L/ssh', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_IDENTIFICATION': 'sk_SK.UTF-8', 'LC_ADDRESS': 'sk_SK.UTF-8', 'COMP_WORDBREAKS': ' \t\n"\'><;|&(:', 'SHLVL': '1', 'VTE_VERSION': '3409', 'GDMSESSION': 'gnome-fallback', 'IM_CONFIG_PHASE': '1', 'UPSTART_JOB': 'unity-settings-daemon', 'TEXTDOMAINDIR': '/usr/share/locale/', 'XDG_DATA_DIRS': '/usr/share/gnome-fallback:/usr/share/gnome:/usr/local/share/:/usr/share/', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-gnome-fallback:/usr/share/upstart/xdg:/etc/xdg', 'XDG_CURRENT_DESKTOP': 'Unity', 'XDG_SESSION_ID': 'c2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-1S00G2ZoFl', '_': '/usr/local/bin/tox', 'DEFAULTS_PATH': '/usr/share/gconf/gnome-fallback.default.path', 'GTK_IM_MODULE': 'xim', 'DESKTOP_SESSION': 'gnome-fallback', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1993', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GNOME_KEYRING_PID': '1991', 'UBUNTU_MENUPROXY': '1', 'OLDPWD': '/home/phudec', 'GDM_LANG': 'en_US', 'LC_TELEPHONE': 'sk_SK.UTF-8', 'GTK_MODULES': 'overlay-scrollbar:unity-gtk-module', 'PYTHONIOENCODING': 'utf_8', 'INSTANCE': 'Unity', 'PWD': '/home/phudec/workspace/aptana/authomatic', 'COLORTERM': 'gnome-terminal', 'LC_NAME': 'sk_SK.UTF-8', 'LC_TIME': 'sk_SK.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SEAT': 'seat0'}
+Downloading/unpacking Django (from -r requirements.txt (line 1))
+Downloading/unpacking Flask (from -r requirements.txt (line 2))
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/Flask/setup.py) egg_info for package Flask
+    
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
+Downloading/unpacking pyramid (from -r requirements.txt (line 3))
+Downloading/unpacking python-openid (from -r requirements.txt (line 4))
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/python-openid/setup.py) egg_info for package python-openid
+    
+    warning: no files found matching 'CHANGELOG'
+    warning: no files found matching '*.css' under directory 'doc'
+    warning: no files found matching '*.html' under directory 'doc'
+Downloading/unpacking liveandletdie>=0.0.4 (from -r requirements.txt (line 5))
+  Downloading liveandletdie-0.0.5.tar.gz
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/liveandletdie/setup.py) egg_info for package liveandletdie
+    
+    no previously-included directories found matching 'venv'
+    no previously-included directories found matching 'tests'
+Downloading/unpacking pytest (from -r requirements.txt (line 6))
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/pytest/setup.py) egg_info for package pytest
+    
+Downloading/unpacking selenium (from -r requirements.txt (line 7))
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/selenium/setup.py) egg_info for package selenium
+    
+Downloading/unpacking Sphinx==1.1.3 (from -r requirements.txt (line 8))
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/Sphinx/setup.py) egg_info for package Sphinx
+    
+    no previously-included directories found matching 'doc/_build'
+Downloading/unpacking six (from -r requirements.txt (line 10))
+  Downloading six-1.9.0-py2.py3-none-any.whl
+Downloading/unpacking Werkzeug>=0.7 (from Flask->-r requirements.txt (line 2))
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/Werkzeug/setup.py) egg_info for package Werkzeug
+    
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes'
+Downloading/unpacking Jinja2>=2.4 (from Flask->-r requirements.txt (line 2))
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/Jinja2/setup.py) egg_info for package Jinja2
+    
+    warning: no files found matching '*' under directory 'custom_fixers'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    warning: no previously-included files matching '*.pyc' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+Downloading/unpacking itsdangerous>=0.21 (from Flask->-r requirements.txt (line 2))
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/itsdangerous/setup.py) egg_info for package itsdangerous
+    
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+Downloading/unpacking zope.interface>=3.8.0 (from pyramid->-r requirements.txt (line 3))
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/zope.interface/setup.py) egg_info for package zope.interface
+    
+    warning: no previously-included files matching '*.dll' found anywhere in distribution
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '*.pyo' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+Downloading/unpacking translationstring>=0.4 (from pyramid->-r requirements.txt (line 3))
+  Downloading translationstring-1.3-py2.py3-none-any.whl
+Downloading/unpacking PasteDeploy>=1.5.0 (from pyramid->-r requirements.txt (line 3))
+  Downloading PasteDeploy-1.5.2-py2.py3-none-any.whl
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /home/phudec/workspace/aptana/py27/lib/python2.7/site-packages (from pyramid->-r requirements.txt (line 3))
+Downloading/unpacking WebOb>=1.3.1 (from pyramid->-r requirements.txt (line 3))
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/WebOb/setup.py) egg_info for package WebOb
+    
+    no previously-included directories found matching '*.pyc'
+    no previously-included directories found matching '*.pyo'
+Downloading/unpacking repoze.lru>=0.4 (from pyramid->-r requirements.txt (line 3))
+  Downloading repoze.lru-0.6.tar.gz
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/repoze.lru/setup.py) egg_info for package repoze.lru
+    
+Downloading/unpacking zope.deprecation>=3.5.0 (from pyramid->-r requirements.txt (line 3))
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/zope.deprecation/setup.py) egg_info for package zope.deprecation
+    
+    warning: no previously-included files matching '*.dll' found anywhere in distribution
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '*.pyo' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+Downloading/unpacking venusian>=1.0a3 (from pyramid->-r requirements.txt (line 3))
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/venusian/setup.py) egg_info for package venusian
+    
+Downloading/unpacking py>=1.4.25 (from pytest->-r requirements.txt (line 6))
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/py/setup.py) egg_info for package py
+    
+Downloading/unpacking Pygments>=1.2 (from Sphinx==1.1.3->-r requirements.txt (line 8))
+Downloading/unpacking docutils>=0.7 (from Sphinx==1.1.3->-r requirements.txt (line 8))
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/docutils/setup.py) egg_info for package docutils
+    
+    warning: no files found matching 'MANIFEST'
+    warning: no files found matching '*' under directory 'extras'
+    warning: no previously-included files matching '.cvsignore' found under directory '*'
+    warning: no previously-included files matching '*.pyc' found under directory '*'
+    warning: no previously-included files matching '*~' found under directory '*'
+    warning: no previously-included files matching '.DS_Store' found under directory '*'
+Downloading/unpacking markupsafe (from Jinja2>=2.4->Flask->-r requirements.txt (line 2))
+  Downloading MarkupSafe-0.23.tar.gz
+  Running setup.py (path:/home/phudec/workspace/aptana/py27/build/markupsafe/setup.py) egg_info for package markupsafe
+    
+Installing collected packages: Django, Flask, pyramid, python-openid, liveandletdie, pytest, selenium, Sphinx, six, Werkzeug, Jinja2, itsdangerous, zope.interface, translationstring, PasteDeploy, WebOb, repoze.lru, zope.deprecation, venusian, py, Pygments, docutils, markupsafe
+  Running setup.py install for Flask
+    
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
   Running setup.py install for python-openid
-Successfully installed EasyProcess-0.1.9 Jinja2-2.7.3 PasteDeploy-1.5.2 Pygments-2.0.2 WebOb-1.4.1 Werkzeug-0.10.4 cffi-1.1.2 chromedriver-installer-0.0.4 cryptography-0.9.1 django-1.8.2 docutils-0.12 enum34-1.0.4 flask-0.10.1 gae-installer-1.9.17.3 idna-2.0 ipaddress-1.0.7 itsdangerous-0.24 liveandletdie-0.0.6 markupsafe-0.23 py-1.4.28 pyasn1-0.1.7 pycparser-2.14 pyopenssl-0.15.1 pyramid-1.5.7 pytest-2.7.1 python-openid-2.2.5 pyvirtualdisplay-0.1.5 repoze.lru-0.6 requests-2.7.0 selenium-2.46.0 six-1.9.0 sphinx-1.1.3 translationstring-1.3 venusian-1.0 zope.deprecation-4.1.2 zope.interface-4.1.2
+    
+    warning: no files found matching 'CHANGELOG'
+    warning: no files found matching '*.css' under directory 'doc'
+    warning: no files found matching '*.html' under directory 'doc'
+  Running setup.py install for liveandletdie
+    
+    no previously-included directories found matching 'venv'
+    no previously-included directories found matching 'tests'
+  Running setup.py install for pytest
+    
+    Installing py.test script to /home/phudec/workspace/aptana/py27/bin
+    Installing py.test-2.7 script to /home/phudec/workspace/aptana/py27/bin
+  Running setup.py install for selenium
+    
+  Running setup.py install for Sphinx
+    
+    no previously-included directories found matching 'doc/_build'
+    Installing sphinx-apidoc script to /home/phudec/workspace/aptana/py27/bin
+    Installing sphinx-build script to /home/phudec/workspace/aptana/py27/bin
+    Installing sphinx-quickstart script to /home/phudec/workspace/aptana/py27/bin
+    Installing sphinx-autogen script to /home/phudec/workspace/aptana/py27/bin
+  Running setup.py install for Werkzeug
+    
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes'
+  Running setup.py install for Jinja2
+    
+    warning: no files found matching '*' under directory 'custom_fixers'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    warning: no previously-included files matching '*.pyc' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+  Running setup.py install for itsdangerous
+    
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+  Running setup.py install for zope.interface
+    
+    warning: no previously-included files matching '*.dll' found anywhere in distribution
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '*.pyo' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    building 'zope.interface._zope_interface_coptimizations' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c src/zope/interface/_zope_interface_coptimizations.c -o build/temp.linux-x86_64-2.7/src/zope/interface/_zope_interface_coptimizations.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/src/zope/interface/_zope_interface_coptimizations.o -o build/lib.linux-x86_64-2.7/zope/interface/_zope_interface_coptimizations.so
+    Skipping installation of /home/phudec/workspace/aptana/py27/lib/python2.7/site-packages/zope/__init__.py (namespace package)
+    Installing /home/phudec/workspace/aptana/py27/lib/python2.7/site-packages/zope.interface-4.1.2-py2.7-nspkg.pth
+  Running setup.py install for WebOb
+    
+    no previously-included directories found matching '*.pyc'
+    no previously-included directories found matching '*.pyo'
+  Running setup.py install for repoze.lru
+    
+    Skipping installation of /home/phudec/workspace/aptana/py27/lib/python2.7/site-packages/repoze/__init__.py (namespace package)
+    Installing /home/phudec/workspace/aptana/py27/lib/python2.7/site-packages/repoze.lru-0.6-py2.7-nspkg.pth
+  Running setup.py install for zope.deprecation
+    
+    warning: no previously-included files matching '*.dll' found anywhere in distribution
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '*.pyo' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    Skipping installation of /home/phudec/workspace/aptana/py27/lib/python2.7/site-packages/zope/__init__.py (namespace package)
+    Installing /home/phudec/workspace/aptana/py27/lib/python2.7/site-packages/zope.deprecation-4.1.2-py2.7-nspkg.pth
+  Running setup.py install for venusian
+    
+  Running setup.py install for py
+    
+  Running setup.py install for docutils
+    changing mode of build/scripts-2.7/rst2html.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2s5.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2latex.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2xetex.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2man.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2xml.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2pseudoxml.py from 664 to 775
+    changing mode of build/scripts-2.7/rstpep2html.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2odt.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2odt_prepstyles.py from 664 to 775
+    
+    warning: no files found matching 'MANIFEST'
+    warning: no files found matching '*' under directory 'extras'
+    warning: no previously-included files matching '.cvsignore' found under directory '*'
+    warning: no previously-included files matching '*.pyc' found under directory '*'
+    warning: no previously-included files matching '*~' found under directory '*'
+    warning: no previously-included files matching '.DS_Store' found under directory '*'
+    changing mode of /home/phudec/workspace/aptana/py27/bin/rst2odt.py to 775
+    changing mode of /home/phudec/workspace/aptana/py27/bin/rst2xml.py to 775
+    changing mode of /home/phudec/workspace/aptana/py27/bin/rst2man.py to 775
+    changing mode of /home/phudec/workspace/aptana/py27/bin/rst2pseudoxml.py to 775
+    changing mode of /home/phudec/workspace/aptana/py27/bin/rst2odt_prepstyles.py to 775
+    changing mode of /home/phudec/workspace/aptana/py27/bin/rst2html.py to 775
+    changing mode of /home/phudec/workspace/aptana/py27/bin/rst2latex.py to 775
+    changing mode of /home/phudec/workspace/aptana/py27/bin/rst2xetex.py to 775
+    changing mode of /home/phudec/workspace/aptana/py27/bin/rst2s5.py to 775
+    changing mode of /home/phudec/workspace/aptana/py27/bin/rstpep2html.py to 775
+  Running setup.py install for markupsafe
+    
+    building 'markupsafe._speedups' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c markupsafe/_speedups.c -o build/temp.linux-x86_64-2.7/markupsafe/_speedups.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/markupsafe/_speedups.o -o build/lib.linux-x86_64-2.7/markupsafe/_speedups.so
+Successfully installed Django Flask pyramid python-openid liveandletdie pytest selenium Sphinx six Werkzeug Jinja2 itsdangerous zope.interface translationstring PasteDeploy WebOb repoze.lru zope.deprecation venusian py Pygments docutils markupsafe
+Cleaning up...

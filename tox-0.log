@@ -1,0 +1,506 @@
+actionid=tox
+msg=packaging
+cmdargs=['/usr/bin/python', local('/home/phudec/workspace/aptana/authomatic/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/phudec/workspace/aptana/dist')]
+env=None
+running sdist
+running egg_info
+writing requirements to Authomatic.egg-info/requires.txt
+writing Authomatic.egg-info/PKG-INFO
+writing top-level names to Authomatic.egg-info/top_level.txt
+writing dependency_links to Authomatic.egg-info/dependency_links.txt
+reading manifest file 'Authomatic.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.jpg' under directory 'doc/build/html'
+warning: no files found matching '*.xml' under directory 'doc/build/html'
+no previously-included directories found matching 'examples/*/venv'
+writing manifest file 'Authomatic.egg-info/SOURCES.txt'
+running check
+creating Authomatic-0.0.10
+creating Authomatic-0.0.10/Authomatic.egg-info
+creating Authomatic-0.0.10/authomatic
+creating Authomatic-0.0.10/authomatic/extras
+creating Authomatic-0.0.10/authomatic/extras/gae
+creating Authomatic-0.0.10/authomatic/providers
+creating Authomatic-0.0.10/doc
+creating Authomatic-0.0.10/doc/build
+creating Authomatic-0.0.10/doc/build/html
+creating Authomatic-0.0.10/doc/build/html/_modules
+creating Authomatic-0.0.10/doc/build/html/_modules/authomatic
+creating Authomatic-0.0.10/doc/build/html/_modules/authomatic/extras
+creating Authomatic-0.0.10/doc/build/html/_modules/authomatic/providers
+creating Authomatic-0.0.10/doc/build/html/_sources
+creating Authomatic-0.0.10/doc/build/html/_sources/examples
+creating Authomatic-0.0.10/doc/build/html/_sources/reference
+creating Authomatic-0.0.10/doc/build/html/_static
+creating Authomatic-0.0.10/doc/build/html/_static/css
+creating Authomatic-0.0.10/doc/build/html/_static/foundation
+creating Authomatic-0.0.10/doc/build/html/_static/foundation/css
+creating Authomatic-0.0.10/doc/build/html/_static/foundation/js
+creating Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+creating Authomatic-0.0.10/doc/build/html/_static/foundation/js/vendor
+creating Authomatic-0.0.10/doc/build/html/_static/img
+creating Authomatic-0.0.10/doc/build/html/examples
+creating Authomatic-0.0.10/doc/build/html/reference
+creating Authomatic-0.0.10/examples
+creating Authomatic-0.0.10/examples/django
+creating Authomatic-0.0.10/examples/django/example
+creating Authomatic-0.0.10/examples/django/example/example
+creating Authomatic-0.0.10/examples/django/example/simple
+creating Authomatic-0.0.10/examples/flask
+creating Authomatic-0.0.10/examples/flask/flask_authomatic
+creating Authomatic-0.0.10/examples/flask/functional_test
+creating Authomatic-0.0.10/examples/flask/werkzeug_adapter
+creating Authomatic-0.0.10/examples/flask/werkzeug_adapter/templates
+creating Authomatic-0.0.10/examples/gae
+creating Authomatic-0.0.10/examples/gae/credentials
+creating Authomatic-0.0.10/examples/gae/dev
+creating Authomatic-0.0.10/examples/gae/extras
+creating Authomatic-0.0.10/examples/gae/showcase
+creating Authomatic-0.0.10/examples/gae/showcase/static
+creating Authomatic-0.0.10/examples/gae/showcase/static/css
+creating Authomatic-0.0.10/examples/gae/showcase/static/js
+creating Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+creating Authomatic-0.0.10/examples/gae/showcase/static/js/vendor
+creating Authomatic-0.0.10/examples/gae/showcase/templates
+creating Authomatic-0.0.10/examples/gae/simple
+creating Authomatic-0.0.10/examples/gae/tester
+creating Authomatic-0.0.10/examples/pyramid
+creating Authomatic-0.0.10/examples/pyramid/simple
+creating Authomatic-0.0.10/javascript
+creating Authomatic-0.0.10/tests
+creating Authomatic-0.0.10/tests/functional_tests
+creating Authomatic-0.0.10/tests/functional_tests/expected_values
+creating Authomatic-0.0.10/tests/functional_tests/fixtures
+making hard links in Authomatic-0.0.10...
+hard linking CHANGES.rst -> Authomatic-0.0.10
+hard linking LICENSE.txt -> Authomatic-0.0.10
+hard linking MANIFEST.in -> Authomatic-0.0.10
+hard linking README.rst -> Authomatic-0.0.10
+hard linking requirements.txt -> Authomatic-0.0.10
+hard linking requirements2.txt -> Authomatic-0.0.10
+hard linking requirements3.txt -> Authomatic-0.0.10
+hard linking setup.py -> Authomatic-0.0.10
+hard linking Authomatic.egg-info/PKG-INFO -> Authomatic-0.0.10/Authomatic.egg-info
+hard linking Authomatic.egg-info/SOURCES.txt -> Authomatic-0.0.10/Authomatic.egg-info
+hard linking Authomatic.egg-info/dependency_links.txt -> Authomatic-0.0.10/Authomatic.egg-info
+hard linking Authomatic.egg-info/requires.txt -> Authomatic-0.0.10/Authomatic.egg-info
+hard linking Authomatic.egg-info/top_level.txt -> Authomatic-0.0.10/Authomatic.egg-info
+hard linking authomatic/__init__.py -> Authomatic-0.0.10/authomatic
+hard linking authomatic/adapters.py -> Authomatic-0.0.10/authomatic
+hard linking authomatic/core.py -> Authomatic-0.0.10/authomatic
+hard linking authomatic/exceptions.py -> Authomatic-0.0.10/authomatic
+hard linking authomatic/extras/__init__.py -> Authomatic-0.0.10/authomatic/extras
+hard linking authomatic/extras/flask.py -> Authomatic-0.0.10/authomatic/extras
+hard linking authomatic/extras/interfaces.py -> Authomatic-0.0.10/authomatic/extras
+hard linking authomatic/extras/gae/__init__.py -> Authomatic-0.0.10/authomatic/extras/gae
+hard linking authomatic/extras/gae/openid.py -> Authomatic-0.0.10/authomatic/extras/gae
+hard linking authomatic/providers/__init__.py -> Authomatic-0.0.10/authomatic/providers
+hard linking authomatic/providers/gaeopenid.py -> Authomatic-0.0.10/authomatic/providers
+hard linking authomatic/providers/oauth1.py -> Authomatic-0.0.10/authomatic/providers
+hard linking authomatic/providers/oauth2.py -> Authomatic-0.0.10/authomatic/providers
+hard linking authomatic/providers/openid.py -> Authomatic-0.0.10/authomatic/providers
+hard linking authomatic/providers/persona.py -> Authomatic-0.0.10/authomatic/providers
+hard linking doc/build/html/changelog.html -> Authomatic-0.0.10/doc/build/html
+hard linking doc/build/html/development.html -> Authomatic-0.0.10/doc/build/html
+hard linking doc/build/html/genindex.html -> Authomatic-0.0.10/doc/build/html
+hard linking doc/build/html/index.html -> Authomatic-0.0.10/doc/build/html
+hard linking doc/build/html/objects.inv -> Authomatic-0.0.10/doc/build/html
+hard linking doc/build/html/py-modindex.html -> Authomatic-0.0.10/doc/build/html
+hard linking doc/build/html/search.html -> Authomatic-0.0.10/doc/build/html
+hard linking doc/build/html/searchindex.js -> Authomatic-0.0.10/doc/build/html
+hard linking doc/build/html/_modules/authomatic.html -> Authomatic-0.0.10/doc/build/html/_modules
+hard linking doc/build/html/_modules/index.html -> Authomatic-0.0.10/doc/build/html/_modules
+hard linking doc/build/html/_modules/authomatic/adapters.html -> Authomatic-0.0.10/doc/build/html/_modules/authomatic
+hard linking doc/build/html/_modules/authomatic/core.html -> Authomatic-0.0.10/doc/build/html/_modules/authomatic
+hard linking doc/build/html/_modules/authomatic/providers.html -> Authomatic-0.0.10/doc/build/html/_modules/authomatic
+hard linking doc/build/html/_modules/authomatic/extras/flask.html -> Authomatic-0.0.10/doc/build/html/_modules/authomatic/extras
+hard linking doc/build/html/_modules/authomatic/extras/gae.html -> Authomatic-0.0.10/doc/build/html/_modules/authomatic/extras
+hard linking doc/build/html/_modules/authomatic/extras/interfaces.html -> Authomatic-0.0.10/doc/build/html/_modules/authomatic/extras
+hard linking doc/build/html/_modules/authomatic/providers/gaeopenid.html -> Authomatic-0.0.10/doc/build/html/_modules/authomatic/providers
+hard linking doc/build/html/_modules/authomatic/providers/oauth1.html -> Authomatic-0.0.10/doc/build/html/_modules/authomatic/providers
+hard linking doc/build/html/_modules/authomatic/providers/oauth2.html -> Authomatic-0.0.10/doc/build/html/_modules/authomatic/providers
+hard linking doc/build/html/_modules/authomatic/providers/openid.html -> Authomatic-0.0.10/doc/build/html/_modules/authomatic/providers
+hard linking doc/build/html/_sources/changelog.txt -> Authomatic-0.0.10/doc/build/html/_sources
+hard linking doc/build/html/_sources/development.txt -> Authomatic-0.0.10/doc/build/html/_sources
+hard linking doc/build/html/_sources/index.txt -> Authomatic-0.0.10/doc/build/html/_sources
+hard linking doc/build/html/_sources/examples/credentials.txt -> Authomatic-0.0.10/doc/build/html/_sources/examples
+hard linking doc/build/html/_sources/examples/django-simple.txt -> Authomatic-0.0.10/doc/build/html/_sources/examples
+hard linking doc/build/html/_sources/examples/flask-simple.txt -> Authomatic-0.0.10/doc/build/html/_sources/examples
+hard linking doc/build/html/_sources/examples/index.txt -> Authomatic-0.0.10/doc/build/html/_sources/examples
+hard linking doc/build/html/_sources/examples/pyramid-simple.txt -> Authomatic-0.0.10/doc/build/html/_sources/examples
+hard linking doc/build/html/_sources/examples/simple.txt -> Authomatic-0.0.10/doc/build/html/_sources/examples
+hard linking doc/build/html/_sources/reference/adapters.txt -> Authomatic-0.0.10/doc/build/html/_sources/reference
+hard linking doc/build/html/_sources/reference/classes.txt -> Authomatic-0.0.10/doc/build/html/_sources/reference
+hard linking doc/build/html/_sources/reference/config.txt -> Authomatic-0.0.10/doc/build/html/_sources/reference
+hard linking doc/build/html/_sources/reference/extras.txt -> Authomatic-0.0.10/doc/build/html/_sources/reference
+hard linking doc/build/html/_sources/reference/functions.txt -> Authomatic-0.0.10/doc/build/html/_sources/reference
+hard linking doc/build/html/_sources/reference/index.txt -> Authomatic-0.0.10/doc/build/html/_sources/reference
+hard linking doc/build/html/_sources/reference/javascript.txt -> Authomatic-0.0.10/doc/build/html/_sources/reference
+hard linking doc/build/html/_sources/reference/providers.txt -> Authomatic-0.0.10/doc/build/html/_sources/reference
+hard linking doc/build/html/_static/ajax-loader.gif -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/basic.css -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/comment-bright.png -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/comment-close.png -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/comment.png -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/doctools.js -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/down-pressed.png -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/down.png -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/file.png -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/jquery.js -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/minus.png -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/plus.png -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/pygments.css -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/searchtools.js -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/underscore.js -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/up-pressed.png -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/up.png -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/websupport.js -> Authomatic-0.0.10/doc/build/html/_static
+hard linking doc/build/html/_static/css/authomatic.css -> Authomatic-0.0.10/doc/build/html/_static/css
+hard linking doc/build/html/_static/foundation/css/basic.css -> Authomatic-0.0.10/doc/build/html/_static/foundation/css
+hard linking doc/build/html/_static/foundation/css/cards.css -> Authomatic-0.0.10/doc/build/html/_static/foundation/css
+hard linking doc/build/html/_static/foundation/js/foundation.min.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js
+hard linking doc/build/html/_static/foundation/js/foundation/foundation.alerts.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+hard linking doc/build/html/_static/foundation/js/foundation/foundation.clearing.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+hard linking doc/build/html/_static/foundation/js/foundation/foundation.cookie.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+hard linking doc/build/html/_static/foundation/js/foundation/foundation.dropdown.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+hard linking doc/build/html/_static/foundation/js/foundation/foundation.forms.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+hard linking doc/build/html/_static/foundation/js/foundation/foundation.joyride.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+hard linking doc/build/html/_static/foundation/js/foundation/foundation.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+hard linking doc/build/html/_static/foundation/js/foundation/foundation.magellan.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+hard linking doc/build/html/_static/foundation/js/foundation/foundation.orbit.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+hard linking doc/build/html/_static/foundation/js/foundation/foundation.placeholder.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+hard linking doc/build/html/_static/foundation/js/foundation/foundation.reveal.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+hard linking doc/build/html/_static/foundation/js/foundation/foundation.section.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+hard linking doc/build/html/_static/foundation/js/foundation/foundation.tooltips.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+hard linking doc/build/html/_static/foundation/js/foundation/foundation.topbar.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation
+hard linking doc/build/html/_static/foundation/js/vendor/custom.modernizr.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/vendor
+hard linking doc/build/html/_static/foundation/js/vendor/jquery.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/vendor
+hard linking doc/build/html/_static/foundation/js/vendor/zepto.js -> Authomatic-0.0.10/doc/build/html/_static/foundation/js/vendor
+hard linking doc/build/html/_static/img/authomatic-seo.gif -> Authomatic-0.0.10/doc/build/html/_static/img
+hard linking doc/build/html/_static/img/authomatic.png -> Authomatic-0.0.10/doc/build/html/_static/img
+hard linking doc/build/html/_static/img/authomatic.svg -> Authomatic-0.0.10/doc/build/html/_static/img
+hard linking doc/build/html/_static/img/favicon.ico -> Authomatic-0.0.10/doc/build/html/_static/img
+hard linking doc/build/html/_static/img/github-ribbon-right.png -> Authomatic-0.0.10/doc/build/html/_static/img
+hard linking doc/build/html/examples/credentials.html -> Authomatic-0.0.10/doc/build/html/examples
+hard linking doc/build/html/examples/django-simple.html -> Authomatic-0.0.10/doc/build/html/examples
+hard linking doc/build/html/examples/flask-simple.html -> Authomatic-0.0.10/doc/build/html/examples
+hard linking doc/build/html/examples/index.html -> Authomatic-0.0.10/doc/build/html/examples
+hard linking doc/build/html/examples/pyramid-simple.html -> Authomatic-0.0.10/doc/build/html/examples
+hard linking doc/build/html/examples/simple.html -> Authomatic-0.0.10/doc/build/html/examples
+hard linking doc/build/html/reference/adapters.html -> Authomatic-0.0.10/doc/build/html/reference
+hard linking doc/build/html/reference/classes.html -> Authomatic-0.0.10/doc/build/html/reference
+hard linking doc/build/html/reference/config.html -> Authomatic-0.0.10/doc/build/html/reference
+hard linking doc/build/html/reference/extras.html -> Authomatic-0.0.10/doc/build/html/reference
+hard linking doc/build/html/reference/functions.html -> Authomatic-0.0.10/doc/build/html/reference
+hard linking doc/build/html/reference/index.html -> Authomatic-0.0.10/doc/build/html/reference
+hard linking doc/build/html/reference/javascript.html -> Authomatic-0.0.10/doc/build/html/reference
+hard linking doc/build/html/reference/providers.html -> Authomatic-0.0.10/doc/build/html/reference
+hard linking examples/django/example/manage.py -> Authomatic-0.0.10/examples/django/example
+hard linking examples/django/example/example/__init__.py -> Authomatic-0.0.10/examples/django/example/example
+hard linking examples/django/example/example/settings.py -> Authomatic-0.0.10/examples/django/example/example
+hard linking examples/django/example/example/urls.py -> Authomatic-0.0.10/examples/django/example/example
+hard linking examples/django/example/example/wsgi.py -> Authomatic-0.0.10/examples/django/example/example
+hard linking examples/django/example/simple/__init__.py -> Authomatic-0.0.10/examples/django/example/simple
+hard linking examples/django/example/simple/config-template.py -> Authomatic-0.0.10/examples/django/example/simple
+hard linking examples/django/example/simple/models.py -> Authomatic-0.0.10/examples/django/example/simple
+hard linking examples/django/example/simple/tests.py -> Authomatic-0.0.10/examples/django/example/simple
+hard linking examples/django/example/simple/urls.py -> Authomatic-0.0.10/examples/django/example/simple
+hard linking examples/django/example/simple/views.py -> Authomatic-0.0.10/examples/django/example/simple
+hard linking examples/flask/flask_authomatic/main.py -> Authomatic-0.0.10/examples/flask/flask_authomatic
+hard linking examples/flask/functional_test/__init__.py -> Authomatic-0.0.10/examples/flask/functional_test
+hard linking examples/flask/functional_test/main.py -> Authomatic-0.0.10/examples/flask/functional_test
+hard linking examples/flask/werkzeug_adapter/config-template.py -> Authomatic-0.0.10/examples/flask/werkzeug_adapter
+hard linking examples/flask/werkzeug_adapter/config.py -> Authomatic-0.0.10/examples/flask/werkzeug_adapter
+hard linking examples/flask/werkzeug_adapter/main.py -> Authomatic-0.0.10/examples/flask/werkzeug_adapter
+hard linking examples/flask/werkzeug_adapter/templates/base.html -> Authomatic-0.0.10/examples/flask/werkzeug_adapter/templates
+hard linking examples/flask/werkzeug_adapter/templates/index.html -> Authomatic-0.0.10/examples/flask/werkzeug_adapter/templates
+hard linking examples/flask/werkzeug_adapter/templates/login.html -> Authomatic-0.0.10/examples/flask/werkzeug_adapter/templates
+hard linking examples/gae/credentials/app.yaml -> Authomatic-0.0.10/examples/gae/credentials
+hard linking examples/gae/credentials/config-template.py -> Authomatic-0.0.10/examples/gae/credentials
+hard linking examples/gae/credentials/main.py -> Authomatic-0.0.10/examples/gae/credentials
+hard linking examples/gae/dev/app.yaml -> Authomatic-0.0.10/examples/gae/dev
+hard linking examples/gae/dev/index.yaml -> Authomatic-0.0.10/examples/gae/dev
+hard linking examples/gae/dev/main.py -> Authomatic-0.0.10/examples/gae/dev
+hard linking examples/gae/extras/app.yaml -> Authomatic-0.0.10/examples/gae/extras
+hard linking examples/gae/extras/config-template.py -> Authomatic-0.0.10/examples/gae/extras
+hard linking examples/gae/extras/index.yaml -> Authomatic-0.0.10/examples/gae/extras
+hard linking examples/gae/extras/main.py -> Authomatic-0.0.10/examples/gae/extras
+hard linking examples/gae/showcase/app.yaml -> Authomatic-0.0.10/examples/gae/showcase
+hard linking examples/gae/showcase/config-template.py -> Authomatic-0.0.10/examples/gae/showcase
+hard linking examples/gae/showcase/main.py -> Authomatic-0.0.10/examples/gae/showcase
+hard linking examples/gae/showcase/static/google62b917dcf0f412c7.html -> Authomatic-0.0.10/examples/gae/showcase/static
+hard linking examples/gae/showcase/static/css/app.css -> Authomatic-0.0.10/examples/gae/showcase/static/css
+hard linking examples/gae/showcase/static/css/normalize.css -> Authomatic-0.0.10/examples/gae/showcase/static/css
+hard linking examples/gae/showcase/static/js/app.js -> Authomatic-0.0.10/examples/gae/showcase/static/js
+hard linking examples/gae/showcase/static/js/authomatic.js -> Authomatic-0.0.10/examples/gae/showcase/static/js
+hard linking examples/gae/showcase/static/js/foundation/foundation.alerts.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+hard linking examples/gae/showcase/static/js/foundation/foundation.clearing.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+hard linking examples/gae/showcase/static/js/foundation/foundation.cookie.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+hard linking examples/gae/showcase/static/js/foundation/foundation.dropdown.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+hard linking examples/gae/showcase/static/js/foundation/foundation.forms.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+hard linking examples/gae/showcase/static/js/foundation/foundation.joyride.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+hard linking examples/gae/showcase/static/js/foundation/foundation.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+hard linking examples/gae/showcase/static/js/foundation/foundation.magellan.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+hard linking examples/gae/showcase/static/js/foundation/foundation.orbit.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+hard linking examples/gae/showcase/static/js/foundation/foundation.placeholder.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+hard linking examples/gae/showcase/static/js/foundation/foundation.reveal.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+hard linking examples/gae/showcase/static/js/foundation/foundation.section.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+hard linking examples/gae/showcase/static/js/foundation/foundation.tooltips.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+hard linking examples/gae/showcase/static/js/foundation/foundation.topbar.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/foundation
+hard linking examples/gae/showcase/static/js/vendor/custom.modernizr.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/vendor
+hard linking examples/gae/showcase/static/js/vendor/jquery.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/vendor
+hard linking examples/gae/showcase/static/js/vendor/zepto.js -> Authomatic-0.0.10/examples/gae/showcase/static/js/vendor
+hard linking examples/gae/showcase/templates/home.html -> Authomatic-0.0.10/examples/gae/showcase/templates
+hard linking examples/gae/simple/app.yaml -> Authomatic-0.0.10/examples/gae/simple
+hard linking examples/gae/simple/config-template.py -> Authomatic-0.0.10/examples/gae/simple
+hard linking examples/gae/simple/config.py -> Authomatic-0.0.10/examples/gae/simple
+hard linking examples/gae/simple/index.yaml -> Authomatic-0.0.10/examples/gae/simple
+hard linking examples/gae/simple/main.py -> Authomatic-0.0.10/examples/gae/simple
+hard linking examples/gae/tester/app.yaml -> Authomatic-0.0.10/examples/gae/tester
+hard linking examples/gae/tester/config.py -> Authomatic-0.0.10/examples/gae/tester
+hard linking examples/gae/tester/main.py -> Authomatic-0.0.10/examples/gae/tester
+hard linking examples/pyramid/simple/config-template.py -> Authomatic-0.0.10/examples/pyramid/simple
+hard linking examples/pyramid/simple/main.py -> Authomatic-0.0.10/examples/pyramid/simple
+hard linking javascript/authomatic.js -> Authomatic-0.0.10/javascript
+hard linking tests/__init__.py -> Authomatic-0.0.10/tests
+hard linking tests/functional_tests/__init__.py -> Authomatic-0.0.10/tests/functional_tests
+hard linking tests/functional_tests/config-template.py -> Authomatic-0.0.10/tests/functional_tests
+hard linking tests/functional_tests/config.py -> Authomatic-0.0.10/tests/functional_tests
+hard linking tests/functional_tests/constants.py -> Authomatic-0.0.10/tests/functional_tests
+hard linking tests/functional_tests/test_providers.py -> Authomatic-0.0.10/tests/functional_tests
+hard linking tests/functional_tests/expected_values/__init__.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/amazon.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/bitly.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/deviantart.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/eventbrite.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/facebook.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/foursquare.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/github.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/google.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/linkedin.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/paypal.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/reddit.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/vk.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/windowslive.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/yammer.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/expected_values/yandex.py -> Authomatic-0.0.10/tests/functional_tests/expected_values
+hard linking tests/functional_tests/fixtures/__init__.py -> Authomatic-0.0.10/tests/functional_tests/fixtures
+Writing Authomatic-0.0.10/setup.cfg
+creating ../dist
+creating '../dist/Authomatic-0.0.10.zip' and adding 'Authomatic-0.0.10' to it
+adding 'Authomatic-0.0.10/requirements3.txt'
+adding 'Authomatic-0.0.10/requirements2.txt'
+adding 'Authomatic-0.0.10/setup.py'
+adding 'Authomatic-0.0.10/CHANGES.rst'
+adding 'Authomatic-0.0.10/setup.cfg'
+adding 'Authomatic-0.0.10/LICENSE.txt'
+adding 'Authomatic-0.0.10/PKG-INFO'
+adding 'Authomatic-0.0.10/README.rst'
+adding 'Authomatic-0.0.10/requirements.txt'
+adding 'Authomatic-0.0.10/MANIFEST.in'
+adding 'Authomatic-0.0.10/Authomatic.egg-info/top_level.txt'
+adding 'Authomatic-0.0.10/Authomatic.egg-info/PKG-INFO'
+adding 'Authomatic-0.0.10/Authomatic.egg-info/dependency_links.txt'
+adding 'Authomatic-0.0.10/Authomatic.egg-info/requires.txt'
+adding 'Authomatic-0.0.10/Authomatic.egg-info/SOURCES.txt'
+adding 'Authomatic-0.0.10/javascript/authomatic.js'
+adding 'Authomatic-0.0.10/examples/flask/functional_test/__init__.py'
+adding 'Authomatic-0.0.10/examples/flask/functional_test/main.py'
+adding 'Authomatic-0.0.10/examples/flask/flask_authomatic/main.py'
+adding 'Authomatic-0.0.10/examples/flask/werkzeug_adapter/config.py'
+adding 'Authomatic-0.0.10/examples/flask/werkzeug_adapter/main.py'
+adding 'Authomatic-0.0.10/examples/flask/werkzeug_adapter/config-template.py'
+adding 'Authomatic-0.0.10/examples/flask/werkzeug_adapter/templates/login.html'
+adding 'Authomatic-0.0.10/examples/flask/werkzeug_adapter/templates/base.html'
+adding 'Authomatic-0.0.10/examples/flask/werkzeug_adapter/templates/index.html'
+adding 'Authomatic-0.0.10/examples/django/example/manage.py'
+adding 'Authomatic-0.0.10/examples/django/example/simple/models.py'
+adding 'Authomatic-0.0.10/examples/django/example/simple/urls.py'
+adding 'Authomatic-0.0.10/examples/django/example/simple/__init__.py'
+adding 'Authomatic-0.0.10/examples/django/example/simple/tests.py'
+adding 'Authomatic-0.0.10/examples/django/example/simple/views.py'
+adding 'Authomatic-0.0.10/examples/django/example/simple/config-template.py'
+adding 'Authomatic-0.0.10/examples/django/example/example/urls.py'
+adding 'Authomatic-0.0.10/examples/django/example/example/__init__.py'
+adding 'Authomatic-0.0.10/examples/django/example/example/wsgi.py'
+adding 'Authomatic-0.0.10/examples/django/example/example/settings.py'
+adding 'Authomatic-0.0.10/examples/gae/showcase/app.yaml'
+adding 'Authomatic-0.0.10/examples/gae/showcase/main.py'
+adding 'Authomatic-0.0.10/examples/gae/showcase/config-template.py'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/google62b917dcf0f412c7.html'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/css/normalize.css'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/css/app.css'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/app.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/authomatic.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/foundation/foundation.cookie.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/foundation/foundation.joyride.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/foundation/foundation.reveal.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/foundation/foundation.orbit.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/foundation/foundation.clearing.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/foundation/foundation.dropdown.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/foundation/foundation.forms.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/foundation/foundation.magellan.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/foundation/foundation.tooltips.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/foundation/foundation.topbar.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/foundation/foundation.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/foundation/foundation.alerts.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/foundation/foundation.placeholder.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/foundation/foundation.section.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/vendor/zepto.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/vendor/custom.modernizr.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/static/js/vendor/jquery.js'
+adding 'Authomatic-0.0.10/examples/gae/showcase/templates/home.html'
+adding 'Authomatic-0.0.10/examples/gae/dev/app.yaml'
+adding 'Authomatic-0.0.10/examples/gae/dev/index.yaml'
+adding 'Authomatic-0.0.10/examples/gae/dev/main.py'
+adding 'Authomatic-0.0.10/examples/gae/extras/app.yaml'
+adding 'Authomatic-0.0.10/examples/gae/extras/index.yaml'
+adding 'Authomatic-0.0.10/examples/gae/extras/main.py'
+adding 'Authomatic-0.0.10/examples/gae/extras/config-template.py'
+adding 'Authomatic-0.0.10/examples/gae/credentials/app.yaml'
+adding 'Authomatic-0.0.10/examples/gae/credentials/main.py'
+adding 'Authomatic-0.0.10/examples/gae/credentials/config-template.py'
+adding 'Authomatic-0.0.10/examples/gae/simple/app.yaml'
+adding 'Authomatic-0.0.10/examples/gae/simple/config.py'
+adding 'Authomatic-0.0.10/examples/gae/simple/index.yaml'
+adding 'Authomatic-0.0.10/examples/gae/simple/main.py'
+adding 'Authomatic-0.0.10/examples/gae/simple/config-template.py'
+adding 'Authomatic-0.0.10/examples/gae/tester/app.yaml'
+adding 'Authomatic-0.0.10/examples/gae/tester/config.py'
+adding 'Authomatic-0.0.10/examples/gae/tester/main.py'
+adding 'Authomatic-0.0.10/examples/pyramid/simple/main.py'
+adding 'Authomatic-0.0.10/examples/pyramid/simple/config-template.py'
+adding 'Authomatic-0.0.10/doc/build/html/development.html'
+adding 'Authomatic-0.0.10/doc/build/html/objects.inv'
+adding 'Authomatic-0.0.10/doc/build/html/searchindex.js'
+adding 'Authomatic-0.0.10/doc/build/html/search.html'
+adding 'Authomatic-0.0.10/doc/build/html/changelog.html'
+adding 'Authomatic-0.0.10/doc/build/html/py-modindex.html'
+adding 'Authomatic-0.0.10/doc/build/html/genindex.html'
+adding 'Authomatic-0.0.10/doc/build/html/index.html'
+adding 'Authomatic-0.0.10/doc/build/html/_modules/authomatic.html'
+adding 'Authomatic-0.0.10/doc/build/html/_modules/index.html'
+adding 'Authomatic-0.0.10/doc/build/html/_modules/authomatic/adapters.html'
+adding 'Authomatic-0.0.10/doc/build/html/_modules/authomatic/core.html'
+adding 'Authomatic-0.0.10/doc/build/html/_modules/authomatic/providers.html'
+adding 'Authomatic-0.0.10/doc/build/html/_modules/authomatic/extras/gae.html'
+adding 'Authomatic-0.0.10/doc/build/html/_modules/authomatic/extras/flask.html'
+adding 'Authomatic-0.0.10/doc/build/html/_modules/authomatic/extras/interfaces.html'
+adding 'Authomatic-0.0.10/doc/build/html/_modules/authomatic/providers/oauth1.html'
+adding 'Authomatic-0.0.10/doc/build/html/_modules/authomatic/providers/openid.html'
+adding 'Authomatic-0.0.10/doc/build/html/_modules/authomatic/providers/oauth2.html'
+adding 'Authomatic-0.0.10/doc/build/html/_modules/authomatic/providers/gaeopenid.html'
+adding 'Authomatic-0.0.10/doc/build/html/examples/django-simple.html'
+adding 'Authomatic-0.0.10/doc/build/html/examples/credentials.html'
+adding 'Authomatic-0.0.10/doc/build/html/examples/flask-simple.html'
+adding 'Authomatic-0.0.10/doc/build/html/examples/index.html'
+adding 'Authomatic-0.0.10/doc/build/html/examples/pyramid-simple.html'
+adding 'Authomatic-0.0.10/doc/build/html/examples/simple.html'
+adding 'Authomatic-0.0.10/doc/build/html/_static/websupport.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/minus.png'
+adding 'Authomatic-0.0.10/doc/build/html/_static/searchtools.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/comment-bright.png'
+adding 'Authomatic-0.0.10/doc/build/html/_static/comment-close.png'
+adding 'Authomatic-0.0.10/doc/build/html/_static/comment.png'
+adding 'Authomatic-0.0.10/doc/build/html/_static/up-pressed.png'
+adding 'Authomatic-0.0.10/doc/build/html/_static/underscore.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/plus.png'
+adding 'Authomatic-0.0.10/doc/build/html/_static/down.png'
+adding 'Authomatic-0.0.10/doc/build/html/_static/down-pressed.png'
+adding 'Authomatic-0.0.10/doc/build/html/_static/ajax-loader.gif'
+adding 'Authomatic-0.0.10/doc/build/html/_static/up.png'
+adding 'Authomatic-0.0.10/doc/build/html/_static/file.png'
+adding 'Authomatic-0.0.10/doc/build/html/_static/pygments.css'
+adding 'Authomatic-0.0.10/doc/build/html/_static/jquery.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/basic.css'
+adding 'Authomatic-0.0.10/doc/build/html/_static/doctools.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/css/cards.css'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/css/basic.css'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation.min.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation/foundation.cookie.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation/foundation.joyride.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation/foundation.reveal.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation/foundation.orbit.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation/foundation.clearing.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation/foundation.dropdown.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation/foundation.forms.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation/foundation.magellan.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation/foundation.tooltips.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation/foundation.topbar.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation/foundation.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation/foundation.alerts.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation/foundation.placeholder.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/foundation/foundation.section.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/vendor/zepto.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/vendor/custom.modernizr.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/foundation/js/vendor/jquery.js'
+adding 'Authomatic-0.0.10/doc/build/html/_static/img/github-ribbon-right.png'
+adding 'Authomatic-0.0.10/doc/build/html/_static/img/authomatic.png'
+adding 'Authomatic-0.0.10/doc/build/html/_static/img/favicon.ico'
+adding 'Authomatic-0.0.10/doc/build/html/_static/img/authomatic.svg'
+adding 'Authomatic-0.0.10/doc/build/html/_static/img/authomatic-seo.gif'
+adding 'Authomatic-0.0.10/doc/build/html/_static/css/authomatic.css'
+adding 'Authomatic-0.0.10/doc/build/html/reference/adapters.html'
+adding 'Authomatic-0.0.10/doc/build/html/reference/javascript.html'
+adding 'Authomatic-0.0.10/doc/build/html/reference/extras.html'
+adding 'Authomatic-0.0.10/doc/build/html/reference/index.html'
+adding 'Authomatic-0.0.10/doc/build/html/reference/classes.html'
+adding 'Authomatic-0.0.10/doc/build/html/reference/functions.html'
+adding 'Authomatic-0.0.10/doc/build/html/reference/providers.html'
+adding 'Authomatic-0.0.10/doc/build/html/reference/config.html'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/development.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/index.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/changelog.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/examples/simple.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/examples/credentials.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/examples/flask-simple.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/examples/pyramid-simple.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/examples/django-simple.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/examples/index.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/reference/extras.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/reference/functions.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/reference/adapters.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/reference/providers.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/reference/classes.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/reference/config.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/reference/index.txt'
+adding 'Authomatic-0.0.10/doc/build/html/_sources/reference/javascript.txt'
+adding 'Authomatic-0.0.10/authomatic/core.py'
+adding 'Authomatic-0.0.10/authomatic/adapters.py'
+adding 'Authomatic-0.0.10/authomatic/__init__.py'
+adding 'Authomatic-0.0.10/authomatic/exceptions.py'
+adding 'Authomatic-0.0.10/authomatic/extras/interfaces.py'
+adding 'Authomatic-0.0.10/authomatic/extras/__init__.py'
+adding 'Authomatic-0.0.10/authomatic/extras/flask.py'
+adding 'Authomatic-0.0.10/authomatic/extras/gae/__init__.py'
+adding 'Authomatic-0.0.10/authomatic/extras/gae/openid.py'
+adding 'Authomatic-0.0.10/authomatic/providers/persona.py'
+adding 'Authomatic-0.0.10/authomatic/providers/__init__.py'
+adding 'Authomatic-0.0.10/authomatic/providers/oauth2.py'
+adding 'Authomatic-0.0.10/authomatic/providers/openid.py'
+adding 'Authomatic-0.0.10/authomatic/providers/gaeopenid.py'
+adding 'Authomatic-0.0.10/authomatic/providers/oauth1.py'
+adding 'Authomatic-0.0.10/tests/__init__.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/config.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/test_providers.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/__init__.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/constants.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/config-template.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/paypal.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/bitly.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/eventbrite.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/amazon.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/google.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/yandex.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/linkedin.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/__init__.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/facebook.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/foursquare.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/deviantart.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/yammer.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/vk.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/reddit.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/github.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/expected_values/windowslive.py'
+adding 'Authomatic-0.0.10/tests/functional_tests/fixtures/__init__.py'
+removing 'Authomatic-0.0.10' (and everything under it)
