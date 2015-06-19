@@ -1,0 +1,75 @@
+[0.999][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "javascriptEnabled": true,
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[0.999][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[0.999][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1.000][INFO]: Launching chrome: /usr/bin/chromium-browser --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --ignore-certificate-errors --load-extension=/tmp/.com.google.Chrome.5an67Y/internal --logging-level=1 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12717 --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.f9yQYW data:,
+[1.001][WARNING]: PAC support disabled because there is no system implementation
