@@ -116,3 +116,4 @@ E tests/functional_tests/test_providers.py::TestCredentials::()::test_token_type
  E                   command: python /home/phudec/workspace/aptana/authomatic/examples/flask/functional_test/main.py --liveandletdie 127.0.0.1:8080 --ssl=1
  
  .tox/py27/local/lib/python2.7/site-packages/liveandletdie/__init__.py:259: LiveAndLetDieError
+test foo
